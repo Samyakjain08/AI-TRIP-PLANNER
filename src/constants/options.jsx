@@ -58,7 +58,7 @@ Input details:
 - Duration: {noofdays} days
 - Budget: {budget}
 - Travellers: {traveller}
-give more than one hotels and include more than 2 places in each day
+give atleast 4 to 5 hotels and include more than 2 places in each day
 
 Output JSON must include the following structure:
 
