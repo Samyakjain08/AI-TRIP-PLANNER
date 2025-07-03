@@ -153,7 +153,7 @@ function CreateTrip() {
                 key={i}
                 onClick={(e) => handleInputChange("budget", item.title)}
                 className={`p-4 border rounded-lg cursor-pointer hover:shadow-lg ${
-                  formData?.budget == item.title && "shadow-lg border-black"
+                  formData?.budget == item.title && "shadow-lg border-black bg-purple-300"
                 }`}
               >
                 <h2 className="text-4xl">{item.icon}</h2>
@@ -174,7 +174,7 @@ function CreateTrip() {
                 key={i}
                 onClick={(e) => handleInputChange("traveller", item.people)}
                 className={`p-4 border rounded-lg cursor-pointer hover:shadow-lg ${
-                  formData?.traveller == item.people && "shadow-lg border-black"
+                  formData?.traveller == item.people && "shadow-lg border-black bg-purple-300"
                 }`}
               >
                 <h2 className="text-4xl">{item.icon}</h2>
